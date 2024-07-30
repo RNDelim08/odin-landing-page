@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
   display: flex;
   flex-direction: column;
 }
@@ -16,15 +16,13 @@ body {
   background-color: #1f2937;
   height: 5em;
   display: flex;
-  padding: 0 20vh;
   justify-content: center;
 }
 
 .nav-center {
   display: flex;
   justify-content: space-between;
-  width: 960px;
-  flex-wrap: wrap;
+  width: 1100px;
 }
 
 ul {
@@ -36,12 +34,14 @@ ul {
 ul li a {
   text-decoration: none;
   color: white;
+  font-size: 1em;
 }
 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
 }
 
 .right-links {
@@ -49,5 +49,19 @@ ul li a {
   align-items: center;
 }
 
+.hero.container {
+  height: 40vh;
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0;
+}
 
-
+.hero-center {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  gap: 100px;
+}
