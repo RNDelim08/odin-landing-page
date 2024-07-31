@@ -239,7 +239,14 @@ button.last-sign-up {
   color: #F9FAF8;
 }
 
-
-
+.footer.section {
+  background-color: #1f2937;
+  padding: 40px 20px;
+  color:#F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
 
 
