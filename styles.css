@@ -105,6 +105,7 @@ button {
   cursor: pointer;
   padding: 8px 42px;
   border-radius: 10px;
+  border: 0 solid #1f2937;
 }
 
 .info.section {
@@ -157,7 +158,7 @@ button {
 }
 
 .testimonial.section {
-  padding: 100px 20px;
+  padding: 100px 60px;
   background-color: #E5E7EB;
   display: flex;
   justify-content: center;
@@ -186,7 +187,57 @@ button {
   margin-right: 30px;
 }
 
+.sign-up.section {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+}
 
+.sign-up.center {
+  background-color: #3882f6;
+  width: 1100px;
+  margin: 60px 0;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button.last-sign-up {
+  color: white;
+  cursor: pointer;
+  padding: 8px 42px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 150px;
+}
+
+.sign-up.text {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.with-button {
+  width: 960px;
+  display: flex;
+}
+
+.sign-button {
+  display: flex;
+  align-items: center;
+}
+
+.call-header {
+  font-size: 22px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.call-text  {
+  font-size: 16px;
+  color: #F9FAF8;
+}
 
 
 
