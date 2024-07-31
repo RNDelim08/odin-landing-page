@@ -1,1 +1,2 @@
-# odin-landing-page
+This second Odin project is a simple landing page layout showcasing the power of Flexbox. The whole layout is based on a design provided by the course which I just brought to life. It took me 2 days to finish this project. Struggled with the hero section, and call to action section most of the time due to me wanting it properly flexed and aligned when windowed. Procrastinated a lot due to that, almost turned to chatgpt, but bounced back and had a lot of euphoric moments when the code actually executes based on what I understood it's supposed to do after experimenting. Really had a good time overall with the experience of actually building a could-be-real website layout.  
+
