@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* border: 1px solid; */
+  border: 1px solid;
 }
 
 body {
@@ -203,29 +203,29 @@ button {
   justify-content: center;
 }
 
-button.last-sign-up {
-  color: white;
-  cursor: pointer;
-  padding: 8px 42px;
-  border-radius: 10px;
-  border: 1px solid white;
-  width: 150px;
+.with-button {
+  flex-basis: 960px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sign-up.text {
-  width: 960px;
   display: flex;
   flex-direction: column;
-}
-
-.with-button {
-  width: 960px;
-  display: flex;
 }
 
 .sign-button {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
+}
+
+.sign-button button {
+  color: white;
+  cursor: pointer;
+  padding: 8px 42px;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 .call-header {
@@ -245,7 +245,7 @@ button.last-sign-up {
   color:#F9FAF8;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   font-size: 14px;
 }
 
